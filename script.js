@@ -663,22 +663,12 @@ function applyDensityShading(periodFilter) {
   })
   const maxCount = Math.max(1, ...Object.values(counts))
 
-  let baseYear = 2025
-  if (periodFilter !== 0) {
-    const p = PERIODS[periodFilter - 1]
-    baseYear = p.from === -99999 ? -2879 : p.from
-  }
-
   Object.keys(layerMap).forEach(en => {
-    const yearAdded = PROVINCE_YEAR[en] ?? -2879
-    const inTerritory = yearAdded <= baseYear
     const count = counts[en] || 0
-    if (!inTerritory) {
-      layerMap[en].setStyle({ fillColor: '#6a5a4a', fillOpacity: 0.16, weight: 1, color: '#4a3a2a' })
-    } else if (count === 0) {
-      layerMap[en].setStyle({ fillColor: '#c8b47a', fillOpacity: 0.18, weight: 1, color: '#7a3818' })
+    if (count === 0) {
+      resetLayer(layerMap[en])
     } else {
-      const opacity = 0.28 + (count / maxCount) * 0.55
+      const opacity = 0.25 + (count / maxCount) * 0.6
       layerMap[en].setStyle({ fillColor: '#c8b47a', fillOpacity: opacity, weight: 1.2, color: '#7a3818' })
     }
   })
