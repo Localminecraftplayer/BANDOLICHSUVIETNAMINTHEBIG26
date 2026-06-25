@@ -655,6 +655,14 @@ function initGaiDoMode() {
   renderGdList()
 }
 
+function lerpColor(t) {
+  // t: 0 = few events (light sand), 1 = many events (deep gold-brown)
+  const r = Math.round(232 + (120 - 232) * t)
+  const g = Math.round(210 + (70  - 210) * t)
+  const b = Math.round(140 + (10  - 140) * t)
+  return `rgb(${r},${g},${b})`
+}
+
 function applyDensityShading(periodFilter) {
   const counts = {}
   globalEvents.forEach(ev => {
@@ -668,8 +676,8 @@ function applyDensityShading(periodFilter) {
     if (count === 0) {
       resetLayer(layerMap[en])
     } else {
-      const opacity = 0.25 + (count / maxCount) * 0.6
-      layerMap[en].setStyle({ fillColor: '#c8b47a', fillOpacity: opacity, weight: 1.2, color: '#7a3818' })
+      const t = count / maxCount
+      layerMap[en].setStyle({ fillColor: lerpColor(t), fillOpacity: 1, weight: 1.2, color: '#7a3818' })
     }
   })
 }
