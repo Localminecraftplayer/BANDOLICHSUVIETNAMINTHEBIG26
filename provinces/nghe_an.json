@@ -1,0 +1,47 @@
+{
+  "name": "Nghệ An",
+  "sections": [
+    {
+      "label": "Tổng Quan",
+      "summary": "Nghệ An là tỉnh có diện tích lớn nhất Việt Nam, nằm ở vùng Bắc Trung Bộ.",
+      "detail": "Nghệ An là tỉnh có diện tích lớn nhất Việt Nam, nằm ở vùng Bắc Trung Bộ. Tỉnh giáp Lào ở phía tây và tiếp giáp biển ở phía đông. Tỉnh nổi tiếng với lịch sử chống ngoại xâm lâu dài, là nơi sinh của Chủ tịch Hồ Chí Minh, và tinh thần kiên cường, mạnh mẽ của người dân nơi đây. Thành phố Vinh là tỉnh lỵ. Nghệ An từ lâu được biết đến là vùng đất sinh ra nhiều lãnh tụ yêu nước, nhà khoa bảng và nhà cách mạng."
+    },
+    {
+      "label": "Ý Nghĩa Văn Hóa & Lịch Sử",
+      "summary": "Làng Kim Liên, quê hương của Chủ tịch Hồ Chí Minh, là một trong những di tích lịch sử quốc gia được tôn kính nhất Việt Nam, thu hút hàng triệu lượt khách hành hương mỗi năm.",
+      "detail": "Làng Kim Liên, quê hương của Chủ tịch Hồ Chí Minh, là một trong những di tích lịch sử quốc gia được tôn kính nhất Việt Nam, thu hút hàng triệu lượt khách hành hương mỗi năm. Hát Ví và Giặm của vùng Nghệ-Tĩnh—những làn điệu dân ca của người nông dân, ngư dân và thợ thủ công—đã được UNESCO ghi vào Danh sách Di sản Văn hóa Phi vật thể năm 2014. Thành phố Vinh, được xây dựng lại sau khi bị tàn phá gần như hoàn toàn trong Chiến tranh Việt Nam, nay là một tỉnh lỵ hiện đại. Vườn quốc gia Pù Mát của tỉnh, giáp biên giới Lào, là vùng đa dạng sinh học lớn và được UNESCO công nhận là khu dự trữ sinh quyển. Địa hình hiểm trở và tinh thần tự hào quê hương mãnh liệt đã biến Nghệ An thành cái nôi của chủ nghĩa dân tộc Việt Nam từ cuộc khởi nghĩa Lam Sơn đến cuộc cách mạng cộng sản."
+    }
+  ],
+  "events": [
+    {
+      "year": "1424",
+      "summary": "Vua Lê Lợi trong giai đoạn quyết định của cuộc kháng chiến Lam Sơn đã chuyển căn cứ chỉ huy từ vùng núi Thanh Hóa vào Nghệ An, mở rộng vùng kiểm soát và tuyển thêm hàng nghìn binh lính từ đất Nghệ.",
+      "detail": "Vua Lê Lợi trong giai đoạn quyết định của cuộc kháng chiến Lam Sơn đã chuyển căn cứ chỉ huy từ vùng núi Thanh Hóa vào Nghệ An, mở rộng vùng kiểm soát và tuyển thêm hàng nghìn binh lính từ đất Nghệ. Vùng đất Nghệ An với địa hình núi rừng hiểm trở và người dân kiên cường cung cấp nguồn nhân lực và lương thực quan trọng cho nghĩa quân trong giai đoạn tổng phản công. Từ căn cứ Nghệ An, Lê Lợi đã chỉ đạo các trận đánh lớn tiến về phía Bắc, giải phóng từng vùng đất rồi tiến thẳng ra Đông Quan (Thăng Long). Chiến thắng năm 1428 giải phóng Thăng Long đã ghi tên Nghệ An vào lịch sử như vùng đất không thể thiếu trong sự nghiệp giành độc lập của dân tộc."
+    },
+    {
+      "year": "1788",
+      "summary": "Nguyễn Huệ (vua Quang Trung) dừng chân tại Nghệ An trong cuộc hành quân thần tốc từ Phú Xuân ra Bắc và tuyển mộ thêm 5.000 quân tinh nhuệ, nâng tổng lực lượng lên hơn 10 vạn người trước khi tiếp tục tiến ra đánh quân Thanh.",
+      "detail": "Nguyễn Huệ (vua Quang Trung) dừng chân tại Nghệ An trong cuộc hành quân thần tốc từ Phú Xuân ra Bắc và tuyển mộ thêm 5.000 quân tinh nhuệ, nâng tổng lực lượng lên hơn 10 vạn người trước khi tiếp tục tiến ra đánh quân Thanh. Đất Nghệ An nổi tiếng cung cấp những chiến sĩ dũng cảm và gan dạ, phù hợp với phong cách chiến đấu mạnh bạo quyết đoán mà vua Quang Trung ưa chuộng. Chỉ trong vài tuần, đội quân được tập hợp và huấn luyện bài binh bố trận rồi thần tốc tiến ra Bắc, đánh tan quân Thanh trong trận Đống Đa ngày mùng 5 Tết Kỷ Dậu (1789). Sự đóng góp của người Nghệ An trong chiến công hiển hách này là minh chứng thêm cho truyền thống thượng võ và lòng yêu nước nồng nàn của vùng đất này."
+    },
+    {
+      "year": "1890",
+      "summary": "Nguyễn Sinh Cung—người sau này trở thành Chủ tịch Hồ Chí Minh, lãnh tụ vĩ đại của dân tộc Việt Nam—sinh ra ngày 19 tháng 5 tại làng Hoàng Trù, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An trong một gia đình nhà Nho yêu nước.",
+      "detail": "Nguyễn Sinh Cung—người sau này trở thành Chủ tịch Hồ Chí Minh, lãnh tụ vĩ đại của dân tộc Việt Nam—sinh ra ngày 19 tháng 5 tại làng Hoàng Trù, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An trong một gia đình nhà Nho yêu nước. Cha ông là cụ Nguyễn Sinh Sắc—một người có chí khí lớn, sau đỗ phó bảng nhưng từ chối làm quan cho Pháp—đã ảnh hưởng sâu sắc đến nhân cách và lý tưởng của người con. Tuổi thơ của Nguyễn Sinh Cung gắn liền với vùng đất Nghệ An nghèo khó nhưng giàu truyền thống yêu nước, nơi những câu chuyện về các anh hùng chống ngoại xâm luôn được truyền tụng. Năm 1911, người thanh niên Nguyễn Tất Thành rời bến Nhà Rồng bắt đầu hành trình ba mươi năm tìm đường cứu nước, mang theo trong tim hình ảnh quê hương Nghệ An nghèo khổ dưới ách thực dân."
+    },
+    {
+      "year": "1930–1931",
+      "summary": "Phong trào Xô Viết Nghệ-Tĩnh bùng phát từ mùa hè năm 1930 tại Nghệ An, với đỉnh điểm là cuộc biểu tình của hơn 8.000 nông dân huyện Nam Đàn ngày 1 tháng 5 năm 1930 và vụ bắn vào đoàn biểu tình ở Bến Thủy.",
+      "detail": "Phong trào Xô Viết Nghệ-Tĩnh bùng phát từ mùa hè năm 1930 tại Nghệ An, với đỉnh điểm là cuộc biểu tình của hơn 8.000 nông dân huyện Nam Đàn ngày 1 tháng 5 năm 1930 và vụ bắn vào đoàn biểu tình ở Bến Thủy. Phong trào nhanh chóng lan rộng, và đến cuối năm 1930 các \"Xô Viết\" nông dân đã kiểm soát và tự quản tại hàng chục xã trong tỉnh: xóa bỏ bộ máy tề làng, miễn thuế, phân chia lại ruộng đất và tổ chức bộ đội tự vệ bảo vệ xóm làng. Pháp đã đưa quân lính và máy bay ném bom đàn áp dã man phong trào, gây ra các vụ thảm sát như ở làng Lộc Châu khiến hàng trăm người thiệt mạng. Dù bị dập tắt, phong trào Xô Viết Nghệ-Tĩnh đã chứng minh sức mạnh tiềm ẩn của nông dân Việt Nam và để lại bài học quý giá về tổ chức và đấu tranh cách mạng mà Đảng Cộng sản sẽ áp dụng hiệu quả hơn trong những thập niên tiếp theo."
+    },
+    {
+      "year": "Thập niên 1940–1975",
+      "summary": "Nghệ An đóng vai trò hậu phương chiến lược và bàn đạp tiến công quan trọng trong cả Chiến tranh Đông Dương lần thứ Nhất (1946–1954) và Chiến tranh Việt Nam (1955–1975), đặc biệt với vị trí gần vĩ tuyến 17 và tiếp giáp đường Trường Sơn.",
+      "detail": "Nghệ An đóng vai trò hậu phương chiến lược và bàn đạp tiến công quan trọng trong cả Chiến tranh Đông Dương lần thứ Nhất (1946–1954) và Chiến tranh Việt Nam (1955–1975), đặc biệt với vị trí gần vĩ tuyến 17 và tiếp giáp đường Trường Sơn. Thành phố Vinh—tỉnh lỵ Nghệ An—bị máy bay Mỹ ném bom liên tục trong giai đoạn 1965–1972, phá hủy hoàn toàn hầu hết các công trình và buộc hàng nghìn người dân phải di dân sơ tán. Cảng Bến Thủy và các tuyến đường bộ qua Nghệ An là những huyết mạch tiếp tế lương thực, vũ khí và binh lính từ miền Bắc vào miền Nam trong suốt thời kỳ chiến tranh. Người dân Nghệ An đã đóng góp hàng nghìn thanh niên tòng quân và hàng trăm nghìn dân công phục vụ chiến trường, thể hiện tinh thần hy sinh cao cả vì sự nghiệp thống nhất đất nước."
+    },
+    {
+      "year": "Thập niên 1960",
+      "summary": "Tỉnh Nghệ An là điểm xuất phát quan trọng của đường mòn Hồ Chí Minh—hệ thống đường tiếp vận bí mật chạy dọc Trường Sơn vào miền Nam—bắt đầu được xây dựng và vận hành từ năm 1959 dưới sự chỉ đạo trực tiếp của Đoàn 559. Các huyện miền tây Nghệ An như Tương Dương, Kỳ Sơn và Quế Phong là nơi tập kết lực lượng và xuất phát của hàng nghìn đoàn quân và xe tải chở vũ khí, đạn dược xuyên rừng Trường Sơn.",
+      "detail": "Tỉnh Nghệ An là điểm xuất phát quan trọng của đường mòn Hồ Chí Minh—hệ thống đường tiếp vận bí mật chạy dọc Trường Sơn vào miền Nam—bắt đầu được xây dựng và vận hành từ năm 1959 dưới sự chỉ đạo trực tiếp của Đoàn 559. Các huyện miền tây Nghệ An như Tương Dương, Kỳ Sơn và Quế Phong là nơi tập kết lực lượng và xuất phát của hàng nghìn đoàn quân và xe tải chở vũ khí, đạn dược xuyên rừng Trường Sơn. Đây cũng là vùng hoạt động dữ dội của máy bay Mỹ khi chúng cố đánh phá các tuyến đường tiếp vận, tạo ra những trận chiến ác liệt trong các cánh rừng già biên giới. Vai trò của Nghệ An trong hệ thống tiếp vận chiến lược này là một trong những đóng góp quan trọng nhất của tỉnh vào chiến thắng cuối cùng của dân tộc năm 1975."
+    }
+  ]
+}

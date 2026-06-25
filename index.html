@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<div id="loader">ĐANG TẢI...</div>
+
+<div id="outerFrame">
+
+  <!-- Map header: centered above the map frame -->
+  <div id="mapHeader">
+    <div class="mh-star">★</div>
+    <div class="mh-title">BẢN ĐỒ LỊCH SỬ VIỆT NAM</div>
+    <div class="mh-sub">Hành trình nghìn năm</div>
+  </div>
+
+  <!-- LEFT: Map (40%) -->
+  <div id="frame">
+    <div id="map"></div>
+    <div id="journeyYearDisplay"></div>
+  </div>
+
+  <!-- RIGHT: Mode panels (60%) -->
+  <div id="textWrapper">
+
+    <!-- Mode navigation bar -->
+    <div id="modeBar">
+      <button class="mode-btn" data-mode="home">□ Trang chủ</button>
+      <button class="mode-btn active" data-mode="explore">□ Khám phá</button>
+      <button class="mode-btn" data-mode="gaido">≡ Giai đoạn</button>
+      <button class="mode-btn" data-mode="journey">▶ Hành trình</button>
+      <button class="mode-btn" data-mode="quiz">? Kiểm tra</button>
+    </div>
+
+    <!-- HOME panel (poem / welcome) -->
+    <div id="homePanel" class="mode-panel">
+      <div class="home-poem">
+        <div class="poem-title">NAM QUỐC SƠN HÀ</div>
+        <div class="poem-rule"></div>
+        <div class="poem-cn">
+          <p>南國山河南帝居</p>
+          <p>截然定分在天書</p>
+          <p>如何逆虜來侵犯</p>
+          <p>汝等行看取敗虛</p>
+        </div>
+        <div class="poem-vi">
+          <p>Sông núi nước Nam vua Nam ở</p>
+          <p>Vằng vặc sách trời chia xứ sở</p>
+          <p>Giặc dữ cớ sao phạm đến đây</p>
+          <p>Chúng mày nhất định phải tan vỡ</p>
+        </div>
+        <div class="poem-attr">— Lý Thường Kiệt, 1077</div>
+      </div>
+      <p class="home-hint">□ Chọn chế độ phía trên để bắt đầu khám phá</p>
+    </div>
+
+    <!-- EXPLORE panel (default active) -->
+    <div id="explorePanel" class="mode-panel active">
+      <div id="nameBar">
+        <div id="nameWithTTS"></div>
+        <div id="searchWrapper">
+          <input id="searchBox" placeholder="Tìm tên tỉnh, thành phố hoặc đảo..." />
+          <div id="searchResults"></div>
+        </div>
+      </div>
+      <div id="rightPanel">
+        <div id="emptyState">
+          <div class="es-star">★</div>
+          <div class="es-title">VIỆT NAM</div>
+          <div class="es-rule"></div>
+          <div class="es-stat">34 TỈNH THÀNH</div>
+          <p class="es-hint">Click vào tỉnh thành để xem lịch sử</p>
+          <button id="quizStartBtn">CHƠI QUIZ ›</button>
+        </div>
+        <div id="panelBody"></div>
+      </div>
+    </div>
+
+    <!-- GIAI ĐOẠN panel -->
+    <div id="gdPanel" class="mode-panel">
+      <div class="gd-top-bar">
+        <input id="gdSearchBox" placeholder="Tìm sự kiện lịch sử..." autocomplete="off" />
+        <span id="gdCount" class="gd-count"></span>
+      </div>
+      <div class="gd-filter-bar">
+        <button class="gd-filter-btn active" data-period="0">Tất cả</button>
+        <button class="gd-filter-btn" data-period="1">① Bắc thuộc</button>
+        <button class="gd-filter-btn" data-period="2">② Độc lập</button>
+        <button class="gd-filter-btn" data-period="3">③ Đại Việt</button>
+        <button class="gd-filter-btn" data-period="4">④ Cận đại</button>
+        <button class="gd-filter-btn" data-period="5">⑤ Kháng chiến</button>
+        <button class="gd-filter-btn" data-period="6">⑥ Đổi mới</button>
+      </div>
+      <div class="gd-density-legend">
+        <span class="gd-legend-label">Mật độ sự kiện</span>
+        <div class="gd-legend-bar">
+          <div class="gd-legend-grad"></div>
+          <div class="gd-legend-ticks">
+            <span>Ít</span><span>Nhiều</span>
+          </div>
+        </div>
+      </div>
+      <div id="gdRight">
+        <div id="gdList"></div>
+        <div id="gdDetail" class="gd-hidden">
+          <div class="gd-detail-inner">
+            <button class="gd-back-btn" id="gdBackBtn">← Danh sách</button>
+            <div id="gdDetailContent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JOURNEY panel -->
+    <div id="journeyPanel" class="mode-panel">
+      <div class="section-label">CHỌN GIAI ĐOẠN</div>
+      <div class="period-bar" id="journeyPeriodBar">
+        <button class="period-btn active" data-period="1">① Bắc thuộc</button>
+        <button class="period-btn" data-period="2">② Độc lập tự chủ</button>
+        <button class="period-btn" data-period="3">③ Đại Việt thịnh trị</button>
+        <button class="period-btn" data-period="4">④ Cận đại &amp; Thực dân</button>
+        <button class="period-btn" data-period="5">⑤ Kháng chiến &amp; Thống nhất</button>
+        <button class="period-btn" data-period="6">⑥ Đổi mới &amp; Hiện đại</button>
+      </div>
+      <div id="journeyControls">
+        <div class="jctrl-btns">
+          <button class="jbtn" id="btnJFirst" title="Về đầu">|◀</button>
+          <button class="jbtn" id="btnJPrev" title="Lùi">◀</button>
+          <button class="jbtn jbtn-main" id="btnJPlay">▶ Phát</button>
+          <button class="jbtn" id="btnJNext" title="Tiếp">▶</button>
+          <button class="jbtn" id="btnJLast" title="Về cuối">▶|</button>
+        </div>
+        <div class="jctrl-speed">
+          <span>Tốc độ:</span>
+          <button class="speed-btn" data-speed="5000">Chậm</button>
+          <button class="speed-btn active" data-speed="3000">Bình thường</button>
+          <button class="speed-btn" data-speed="1500">Nhanh</button>
+        </div>
+      </div>
+      <div id="journeyProgressBar"><div id="journeyProgressFill"></div></div>
+      <div id="journeyEventList"></div>
+    </div>
+
+    <!-- QUIZ panel (3-type: click map / choose year / choose event) -->
+    <div id="newQuizPanel" class="mode-panel">
+      <div id="quizHeader">
+        <div class="quiz-meta-left">
+          <span id="qProgress">Câu 1 / 10</span>
+          <span id="qTypeTag" class="qtag">Click bản đồ</span>
+        </div>
+        <span id="qScore">0 điểm</span>
+      </div>
+      <div id="qProgBar"><div id="qProgFill"></div></div>
+      <div id="qBody">
+        <div id="qQuestion"></div>
+        <div id="qHint"></div>
+        <div id="qOptions"></div>
+        <div id="qFeedback"></div>
+      </div>
+      <div id="qResult" class="hidden">
+        <div id="qrScore"></div>
+        <div id="qrGrade"></div>
+        <div id="qrStats"></div>
+        <div class="qr-btns">
+          <button id="qrRestart">Chơi lại</button>
+          <button id="qrExit">Thoát</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end #textWrapper -->
+
+  <div id="mapTooltip"></div>
+
+  <div id="easterEgg" aria-hidden="true">
+    <div id="easterEggCard">
+      <div class="ee-glyph">✦</div>
+      <div class="ee-title">HỒNG BÀNG</div>
+      <div class="ee-rule"></div>
+      <p class="ee-text">Thủa hồng hoang, <strong>Lạc Long Quân</strong> — thần rồng biển — kết duyên cùng <strong>Âu Cơ</strong> — tiên nữ núi cao. Bà sinh một bọc trăm trứng, nở thành trăm người con — tổ tiên của trăm họ người Việt.</p>
+      <p class="ee-text">Năm mươi con theo cha xuống biển. Năm mươi con theo mẹ lên núi. Người con trưởng lên ngôi, lập nước <strong>Văn Lang</strong>, xưng là <strong>Hùng Vương</strong> — mở ra dòng chảy bốn nghìn năm văn hiến.</p>
+      <div class="ee-badge">Con Rồng Cháu Tiên</div>
+      <button id="easterEggClose" aria-label="Đóng">✕</button>
+    </div>
+  </div>
+
+</div><!-- end #outerFrame -->
+
+<section id="historySection" style="display:none">
+  <h2 class="hist-title">Lịch Sử Việt Nam</h2>
+  <div class="hist-timeline">
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">~2879 TCN</div>
+        <h3>Nhà Nước Văn Lang</h3>
+        <p>Các đời Hùng Vương dựng nên nhà nước Văn Lang trên vùng đất Phong Châu — nhà nước đầu tiên trong lịch sử dân tộc Việt. Đây là nền tảng của nền văn minh lúa nước và truyền thống dựng nước, giữ nước ngàn đời, được tưởng niệm qua ngày Giỗ Tổ Hùng Vương mồng 10 tháng 3 âm lịch.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">111 TCN – 938</div>
+        <h3>Nghìn Năm Bắc Thuộc</h3>
+        <p>Từ năm 111 TCN, các triều đại phong kiến phương Bắc lần lượt đô hộ Việt Nam hơn một nghìn năm. Dù bị áp bức nặng nề, người Việt vẫn kiên trì bảo tồn tiếng nói, phong tục và bản sắc văn hóa riêng, nuôi dưỡng ý chí độc lập mãnh liệt.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">40 CN</div>
+        <h3>Khởi Nghĩa Hai Bà Trưng</h3>
+        <p>Trưng Trắc và Trưng Nhị phất cờ khởi nghĩa, thu phục 65 thành trì, giành lại độc lập sau hàng thế kỷ bị đô hộ. Cuộc khởi nghĩa tuy chỉ kéo dài ba năm nhưng đã trở thành biểu tượng bất khuất và tinh thần anh hùng của người phụ nữ Việt Nam muôn đời.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">938</div>
+        <h3>Chiến Thắng Sông Bạch Đằng</h3>
+        <p>Ngô Quyền dùng kế cắm cọc dưới lòng sông Bạch Đằng, đánh tan hoàn toàn đạo quân Nam Hán hùng mạnh, chấm dứt hơn một nghìn năm đô hộ phương Bắc. Chiến thắng lịch sử này mở ra kỷ nguyên độc lập, tự chủ lâu dài cho dân tộc Việt.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">1010</div>
+        <h3>Dời Đô Về Thăng Long</h3>
+        <p>Vua Lý Công Uẩn ban "Chiếu dời đô", chuyển kinh thành từ Hoa Lư về Đại La — nơi ông thấy điềm lành "rồng vàng bay lên" — đặt tên là Thăng Long. Từ đây Thăng Long trở thành trái tim chính trị và văn hóa của Đại Việt suốt nhiều thế kỷ, ngày nay là Hà Nội.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">1258 – 1288</div>
+        <h3>Ba Lần Đại Thắng Mông Nguyên</h3>
+        <p>Quân dân nhà Trần ba lần đánh bại đế chế Mông Nguyên — đội quân đã chinh phục gần như cả thế giới. Tinh thần "Hội nghị Diên Hồng", quyết tâm "Sát Thát" và chiến thắng Bạch Đằng năm 1288 đã trở thành kỳ tích bất tử trong lịch sử nhân loại.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">1428</div>
+        <h3>Bình Ngô — Giải Phóng Đất Nước</h3>
+        <p>Sau mười năm lãnh đạo kháng chiến gian khổ từ núi rừng Lam Sơn, Lê Lợi đánh đuổi giặc Minh, giành lại độc lập và lập nên nhà Lê sơ. Nguyễn Trãi soạn "Bình Ngô Đại Cáo" — bản tuyên ngôn hào hùng khẳng định chủ quyền và sức mạnh văn hiến của dân tộc.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">1789</div>
+        <h3>Quang Trung Đại Phá Quân Thanh</h3>
+        <p>Nguyễn Huệ lên ngôi Hoàng đế, lấy hiệu là Quang Trung, rồi chỉ trong 5 ngày Tết Kỷ Dậu đã đại phá 29 vạn quân Thanh xâm lược tại Đống Đa — Hà Nội. Chiến thắng thần tốc này là một trong những kỳ tích quân sự vĩ đại nhất lịch sử dân tộc.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">1802</div>
+        <h3>Nhà Nguyễn Thống Nhất Giang Sơn</h3>
+        <p>Nguyễn Ánh (Gia Long) thống nhất đất nước từ Bắc vào Nam sau nhiều thế kỷ chia cắt, lên ngôi hoàng đế và đến năm 1804 chính thức đặt tên nước là Việt Nam. Triều Nguyễn xây dựng kinh đô Huế thành trung tâm văn hóa, nghệ thuật rực rỡ, để lại di sản kiến trúc phong phú đến ngày nay.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">1858</div>
+        <h3>Thực Dân Pháp Xâm Lược</h3>
+        <p>Liên quân Pháp – Tây Ban Nha nổ súng tấn công Đà Nẵng, mở đầu cuộc chinh phục kéo dài hàng thập kỷ. Đến năm 1884, Pháp hoàn toàn kiểm soát Việt Nam, áp đặt ách đô hộ gần một thế kỷ nhưng không bao giờ dập tắt được ngọn lửa đấu tranh của nhân dân.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">1945</div>
+        <h3>Cách Mạng Tháng Tám</h3>
+        <p>Chớp thời cơ Nhật Bản đầu hàng Đồng Minh, Hồ Chí Minh lãnh đạo tổng khởi nghĩa giành chính quyền trong cả nước. Ngày 2/9/1945 tại Quảng trường Ba Đình, Người đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa, chấm dứt gần 90 năm nô lệ.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">1954</div>
+        <h3>Chiến Thắng Điện Biên Phủ</h3>
+        <p>Sau 55 ngày đêm chiến đấu kiên cường, quân dân Việt Nam dưới sự chỉ huy của Đại tướng Võ Nguyên Giáp tiêu diệt toàn bộ tập đoàn cứ điểm Điện Biên Phủ. Chiến thắng "lừng lẫy năm châu, chấn động địa cầu" buộc Pháp ký Hiệp định Genève, chấm dứt chiến tranh Đông Dương.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">1955 – 1975</div>
+        <h3>Kháng Chiến Chống Mỹ</h3>
+        <p>Sau khi đất nước bị chia cắt tại vĩ tuyến 17, quân dân miền Nam tiến hành cuộc kháng chiến trường kỳ chống lại sự can thiệp của Mỹ và chính quyền Sài Gòn. Hai mươi năm chiến đấu gian khổ với bao hy sinh mất mát đã hun đúc nên ý chí sắt đá và tinh thần bất khuất của cả dân tộc.</p>
+      </div>
+    </article>
+
+    <article class="hist-event right">
+      <div class="hist-card">
+        <div class="hist-year">30/4/1975</div>
+        <h3>Non Sông Thu Về Một Mối</h3>
+        <p>Chiến dịch Hồ Chí Minh lịch sử kết thúc thắng lợi khi xe tăng quân Giải phóng tiến vào Dinh Độc Lập. Sau hàng chục năm chia cắt và chiến tranh khốc liệt, non sông Việt Nam thu về một mối, mở ra thời đại hòa bình và thống nhất.</p>
+      </div>
+    </article>
+
+    <article class="hist-event left">
+      <div class="hist-card">
+        <div class="hist-year">1986</div>
+        <h3>Công Cuộc Đổi Mới</h3>
+        <p>Đại hội Đảng lần thứ VI khởi xướng công cuộc Đổi Mới toàn diện, chuyển từ kinh tế tập trung sang kinh tế thị trường định hướng xã hội chủ nghĩa. Việt Nam từng bước hội nhập quốc tế, vươn lên từ một trong những nước nghèo nhất thế giới để trở thành quốc gia đang phát triển năng động.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

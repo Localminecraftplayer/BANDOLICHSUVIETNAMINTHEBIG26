@@ -1,0 +1,5 @@
+const CONFIG = {
+  VOICERSS_KEY: "4dee42de922f4cd5a39e0775f4195a38",
+  FPT_KEY:   "9GHTAvTe8QhtNIG9a5j4Le3LT2ZArFsm",
+  FPT_VOICE: "minhquang"
+}

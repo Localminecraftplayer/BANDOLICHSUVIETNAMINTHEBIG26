@@ -1,0 +1,72 @@
+{
+  "name": "Hà Nội",
+  "sections": [
+    {
+      "label": "Tổng Quan",
+      "summary": "Hà Nội là thủ đô của Việt Nam và là một trong những thành phố lâu đời và có tầm quan trọng lịch sử bậc nhất Đông Nam Á.",
+      "detail": "Hà Nội là thủ đô của Việt Nam và là một trong những thành phố lâu đời và có tầm quan trọng lịch sử bậc nhất Đông Nam Á. Với hơn một nghìn năm là trung tâm chính trị và văn hóa, Hà Nội được xem là trái tim của nền văn minh Việt Nam. Thành phố nằm trên bờ tây sông Hồng và sau đợt mở rộng địa giới hành chính năm 2008, hiện có diện tích hơn 3.300 km². Tên gọi \"Hà Nội\" có nghĩa là \"bên trong các con sông\" (Hà = sông, Nội = bên trong), phản ánh vị trí địa lý của thành phố nằm giữa sông Hồng và các nhánh sông của nó."
+    },
+    {
+      "label": "Ý Nghĩa Văn Hóa & Lịch Sử",
+      "summary": "Hà Nội là nơi tọa lạc của Hoàng thành Thăng Long—Di sản Văn hóa Thế giới được UNESCO công nhận, lưu giữ nhiều tầng lớp lịch sử hoàng gia Việt Nam từ thế kỷ 11 đến thế kỷ 18.",
+      "detail": "Hà Nội là nơi tọa lạc của Hoàng thành Thăng Long—Di sản Văn hóa Thế giới được UNESCO công nhận, lưu giữ nhiều tầng lớp lịch sử hoàng gia Việt Nam từ thế kỷ 11 đến thế kỷ 18. Khu Phố Cổ với 36 phố phường phản ánh 600 năm hoạt động thương mại theo ngành nghề, với những con phố vẫn còn mang tên các mặt hàng từng buôn bán tại đó. Hồ Hoàn Kiếm và đền Ngọc Sơn là những biểu tượng mang tính biểu tượng của thành phố, gắn liền với truyền thuyết về vua Lê Lợi và thanh gươm thần. Văn Miếu–Quốc Tử Giám, được xây dựng năm 1070, là trường đại học đầu tiên của Việt Nam và là đài tưởng niệm nền học thuật Nho giáo. Hà Nội cũng là nơi có Lăng Chủ tịch Hồ Chí Minh, Bảo tàng Dân tộc học Việt Nam, Bảo tàng Lịch sử Việt Nam, Bảo tàng Mỹ thuật cùng hàng chục chùa cổ, trong đó có chùa Trấn Quốc—ngôi chùa Phật giáo lâu đời nhất Việt Nam."
+    }
+  ],
+  "events": [
+    {
+      "year": "Thế kỷ thứ 5 sau CN",
+      "summary": "Khu định cư Tống Bình của người Hán được xây dựng tại đây, đặt nền móng cho vai trò trung tâm hành chính lâu dài của vùng đất này.",
+      "detail": "Khu định cư Tống Bình của người Hán được xây dựng tại đây, đặt nền móng cho vai trò trung tâm hành chính lâu dài của vùng đất này. Tống Bình là thủ phủ của quận Giao Chỉ dưới thời cai trị của nhà Hán và sau đó là nhà Đường, đóng vai trò là trung tâm điều hành của chính quyền phương Bắc tại Việt Nam trong suốt thời kỳ Bắc thuộc. Vùng đất được ưa chuộng nhờ vị trí địa lý thuận lợi bên bờ sông Hồng, tạo điều kiện cho việc phòng thủ và giao thương. Nhiều lớp văn hóa và kiến trúc từ thời kỳ đô hộ này vẫn được khai quật trong khu vực Hoàng thành Thăng Long ngày nay."
+    },
+    {
+      "year": "1010",
+      "summary": "Vua Lý Thái Tổ lập Thăng Long làm kinh đô của Đại Việt, mở ra một kỷ nguyên phát triển rực rỡ cho vùng đất này.",
+      "detail": "Vua Lý Thái Tổ lập Thăng Long làm kinh đô của Đại Việt, mở ra một kỷ nguyên phát triển rực rỡ cho vùng đất này. Tương truyền khi thuyền rồng của nhà vua đến nơi, ông trông thấy một con rồng vàng bay lên từ mặt đất, điềm lành này khiến ông đặt tên kinh đô là Thăng Long, nghĩa là \"Rồng Bay Lên.\" Vua cho xây dựng Cấm thành, các cung điện và đền thờ, biến Thăng Long thành trung tâm chính trị, tôn giáo và thương mại của toàn quốc. Quyết định định đô tại đây được đánh giá là một trong những quyết sách sáng suốt nhất trong lịch sử Việt Nam, tạo đà cho sự phát triển bền vững của đất nước trong nhiều thế kỷ."
+    },
+    {
+      "year": "1257, 1285, 1288",
+      "summary": "Thăng Long ba lần đánh bại quân Mông Cổ xâm lược trong những chiến thắng vang dội nhất lịch sử dân tộc.",
+      "detail": "Thăng Long ba lần đánh bại quân Mông Cổ xâm lược trong những chiến thắng vang dội nhất lịch sử dân tộc. Mỗi lần quân Mông Cổ tràn vào, triều đình nhà Trần chủ động thực hiện chiến lược \"vườn không nhà trống,\" di tản khỏi kinh đô rồi tổ chức phản công dữ dội. Tướng Trần Hưng Đạo là linh hồn của ba cuộc kháng chiến, ông đã viết \"Hịch tướng sĩ\" để khích lệ tinh thần quân dân toàn quốc. Chiến thắng Bạch Đằng năm 1288 là đòn quyết định, phá tan hạm đội Mông Cổ và buộc đế quốc hùng mạnh nhất thế giới bấy giờ phải từ bỏ ý định thôn tính Đại Việt."
+    },
+    {
+      "year": "1428",
+      "summary": "Lê Lợi giải phóng Thăng Long khỏi hai mươi năm đô hộ của nhà Minh và thành lập triều đại Lê sơ, mở ra thời kỳ hoàng kim của văn hóa và chế độ nhà nước Việt Nam.",
+      "detail": "Lê Lợi giải phóng Thăng Long khỏi hai mươi năm đô hộ của nhà Minh và thành lập triều đại Lê sơ, mở ra thời kỳ hoàng kim của văn hóa và chế độ nhà nước Việt Nam. Cuộc kháng chiến Lam Sơn kéo dài từ năm 1418, khởi đầu từ núi rừng Thanh Hóa trước khi mở rộng ra toàn quốc. Sau khi giải phóng Thăng Long, Lê Lợi lên ngôi hoàng đế với niên hiệu Lê Thái Tổ và trả lại thanh gươm thần cho Rùa Vàng ở hồ Lục Thủy—truyền thuyết này gắn liền với Hồ Hoàn Kiếm ngày nay. Triều Lê sơ sau đó đã xây dựng bộ luật Hồng Đức, hệ thống thi cử Nho giáo hoàn chỉnh và nền văn học chữ Nôm phong phú, đưa Thăng Long lên tầm vóc một kinh đô văn minh hàng đầu khu vực."
+    },
+    {
+      "year": "1802",
+      "summary": "Kinh đô được chuyển vào Huế dưới triều Nguyễn, đánh dấu lần đầu tiên trong lịch sử Thăng Long không còn là trung tâm quyền lực của Việt Nam sau gần tám thế kỷ.",
+      "detail": "Kinh đô được chuyển vào Huế dưới triều Nguyễn, đánh dấu lần đầu tiên trong lịch sử Thăng Long không còn là trung tâm quyền lực của Việt Nam sau gần tám thế kỷ. Vua Gia Long sau khi thống nhất đất nước đã chọn Huế làm kinh đô vì vị trí ở trung tâm lãnh thổ từ Ải Nam Quan đến Mũi Cà Mau. Thăng Long bị hạ xuống làm trấn thành rồi tỉnh thành, mất đi phần lớn các công trình hoàng gia và sự sầm uất vốn có. Sự kiện này khởi đầu một giai đoạn suy giảm kéo dài về vị thế hành chính, dù thành phố vẫn duy trì vai trò trung tâm kinh tế và văn hóa của miền Bắc."
+    },
+    {
+      "year": "1831",
+      "summary": "Vua Minh Mạng đổi tên thành Hà Nội trong đợt cải cách hành chính toàn quốc quy mô lớn.",
+      "detail": "Vua Minh Mạng đổi tên thành Hà Nội trong đợt cải cách hành chính toàn quốc quy mô lớn. Cái tên \"Hà Nội\" phản ánh vị trí địa lý của thành phố nằm bên trong các con sông, được bao quanh bởi sông Hồng và các nhánh sông của nó. Cùng thời điểm này, vua Minh Mạng cho phá dỡ phần lớn Hoàng thành Thăng Long và xây dựng lại thành phố theo quy hoạch mới phù hợp hơn với chức năng của một tỉnh thành. Tên gọi Hà Nội từ đó đã gắn bó không thể tách rời với thành phố trong suốt gần hai thế kỷ tiếp theo."
+    },
+    {
+      "year": "1873 và 1882",
+      "summary": "Quân Pháp chiếm đóng Hà Nội qua hai đợt tấn công riêng biệt, mở đường cho ách thống trị thực dân kéo dài gần một thế kỷ.",
+      "detail": "Quân Pháp chiếm đóng Hà Nội qua hai đợt tấn công riêng biệt, mở đường cho ách thống trị thực dân kéo dài gần một thế kỷ. Năm 1873, Francis Garnier chỉ huy lực lượng nhỏ tấn công và chiếm Thành Hà Nội chỉ trong vài giờ, nhưng ông bị giết trong một trận phục kích ngay sau đó và Pháp phải tạm rút lui. Năm 1882, Henri Rivière dẫn quân quay lại và chiếm thành lần thứ hai một cách quyết định hơn, đặt nền tảng cho Pháp thiết lập quyền bảo hộ toàn diện trên đất Bắc Kỳ. Hà Nội sau đó được xây dựng lại theo quy hoạch đô thị Pháp với các đại lộ rộng, công sở và Khu Phố Tây—tạo nên gương mặt kiến trúc thuộc địa đặc trưng mà thành phố vẫn còn lưu giữ đến hôm nay."
+    },
+    {
+      "year": "Ngày 2 tháng 9 năm 1945",
+      "summary": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình trước hàng trăm nghìn người dân, chính thức khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+      "detail": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình trước hàng trăm nghìn người dân, chính thức khai sinh nước Việt Nam Dân chủ Cộng hòa. Bản Tuyên ngôn mở đầu bằng những lời trích dẫn Tuyên ngôn Độc lập Hoa Kỳ và Tuyên ngôn Nhân quyền và Dân quyền Pháp, khẳng định quyền tự do bình đẳng của dân tộc Việt Nam trước thế giới. Sự kiện diễn ra ngay sau khi Nhật Bản đầu hàng Đồng Minh và chấm dứt gần trăm năm đô hộ của thực dân Pháp. Đây là một trong những sự kiện trọng đại nhất lịch sử Việt Nam, biến Hà Nội một lần nữa trở thành trái tim của quốc gia độc lập."
+    },
+    {
+      "year": "Ngày 10 tháng 10 năm 1954",
+      "summary": "Quân Pháp rút lui và quân đội Việt Nam Dân chủ Cộng hòa tiến vào Hà Nội trong không khí hân hoan của hàng triệu người dân, khép lại gần một thế kỷ cai trị thuộc địa.",
+      "detail": "Quân Pháp rút lui và quân đội Việt Nam Dân chủ Cộng hòa tiến vào Hà Nội trong không khí hân hoan của hàng triệu người dân, khép lại gần một thế kỷ cai trị thuộc địa. Sự kiện này diễn ra theo Hiệp định Genève được ký kết sau thất bại của Pháp tại Điện Biên Phủ tháng 5 năm 1954. Các đơn vị quân đội từ nhiều hướng tiến vào tiếp quản thành phố trong khi những người dân tập kết và binh lính Pháp lên tàu rời đi. Ngày 10 tháng 10 hàng năm được kỷ niệm là Ngày Giải phóng Thủ đô, một trong những ngày lễ quan trọng nhất của người Hà Nội."
+    },
+    {
+      "year": "1965–1972",
+      "summary": "Thành phố bị các chiến dịch ném bom của Mỹ nhắm mục tiêu trong Chiến tranh Việt Nam, đặc biệt dữ dội qua hai chiến dịch Sấm Rền và Linebacker II.",
+      "detail": "Thành phố bị các chiến dịch ném bom của Mỹ nhắm mục tiêu trong Chiến tranh Việt Nam, đặc biệt dữ dội qua hai chiến dịch Sấm Rền (Rolling Thunder, 1965–1968) và Linebacker II (tháng 12/1972). Chiến dịch Linebacker II—còn gọi là \"Điện Biên Phủ trên không\"—kéo dài 12 ngày đêm từ 18 đến 30 tháng 12 năm 1972, trong đó lực lượng phòng không Việt Nam bắn hạ 81 máy bay Mỹ, bao gồm 34 pháo đài bay B-52. Nhiều khu dân cư của Hà Nội bị tàn phá nặng nề, đặc biệt là phố Khâm Thiên và khu vực quanh bệnh viện Bạch Mai. Chiến thắng \"Điện Biên Phủ trên không\" buộc Mỹ phải ngồi vào bàn đàm phán, dẫn đến Hiệp định Paris ký ngày 27 tháng 1 năm 1973."
+    },
+    {
+      "year": "Ngày 2 tháng 7 năm 1976",
+      "summary": "Hà Nội trở thành thủ đô của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam thống nhất sau khi Quốc hội thống nhất bỏ phiếu hợp nhất hai miền Nam – Bắc thành một nhà nước duy nhất.",
+      "detail": "Hà Nội trở thành thủ đô của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam thống nhất sau khi Quốc hội thống nhất bỏ phiếu hợp nhất hai miền Nam – Bắc thành một nhà nước duy nhất. Đây là kết quả tất yếu sau chiến thắng lịch sử ngày 30 tháng 4 năm 1975, khi miền Nam hoàn toàn được giải phóng. Hà Nội đảm nhận vai trò thủ đô của một đất nước hơn 50 triệu dân, bắt đầu công cuộc khôi phục kinh tế và hàn gắn vết thương chiến tranh. Từ thời điểm này, thành phố bước vào giai đoạn phát triển và đổi mới, đặc biệt sau Đổi Mới năm 1986, để trở thành một trong những thủ đô năng động và phát triển nhanh nhất khu vực Đông Nam Á."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Bắc Ninh",
+  "sections": [
+    {
+      "label": "Tổng Quan",
+      "summary": "Bắc Ninh là một tỉnh ở miền Bắc Việt Nam, thuộc vùng đồng bằng sông Hồng, giáp Hà Nội về phía tây, Hải Dương và Hải Phòng về phía đông, Hưng Yên về phía nam, Lạng Sơn và Thái Nguyên về phía bắc.",
+      "detail": "Bắc Ninh là một tỉnh ở miền Bắc Việt Nam, thuộc vùng đồng bằng sông Hồng, giáp Hà Nội về phía tây, Hải Dương và Hải Phòng về phía đông, Hưng Yên về phía nam, Lạng Sơn và Thái Nguyên về phía bắc. Với diện tích khoảng 823 km², Bắc Ninh là một trong những tỉnh nhỏ nhất cả nước. Tỉnh được biết đến trong lịch sử là cái nôi của triều đại nhà Lý và là trung tâm lớn của Phật giáo cũng như truyền thống học vấn Việt Nam."
+    },
+    {
+      "label": "Ý Nghĩa Văn Hóa & Lịch Sử",
+      "summary": "Bắc Ninh là một trong những vùng văn hóa giàu có nhất Việt Nam.",
+      "detail": "Bắc Ninh là một trong những vùng văn hóa giàu có nhất Việt Nam. Đây là quê hương của dân ca Quan họ — loại hình dân ca đối đáp giao duyên độc đáo đã được UNESCO ghi danh vào Danh sách Di sản Văn hóa Phi vật thể đại diện của Nhân loại năm 2009. Tỉnh còn là nơi có làng Đông Hồ nổi tiếng với nghề làm tranh dân gian truyền thống (tranh Đông Hồ) — những tác phẩm in mộc bản được bày bán khắp nơi, đặc biệt vào dịp Tết Nguyên Đán. Dòng tranh Đông Hồ với đề tài dân dã, phản ánh đời sống thường nhật, được coi là một di sản mỹ thuật dân tộc đặc sắc. Bắc Ninh là trung tâm Phật giáo lớn của Việt Nam, lưu giữ nhiều ngôi chùa cổ như chùa Dâu (một trong những ngôi chùa cổ nhất Việt Nam), chùa Phật Tích, chùa Bút Tháp và chùa Dầu. Các di tích này là điểm đến hành hương quan trọng và là nơi tổ chức nhiều lễ hội lớn hàng năm. Truyền thống trọng học và khoa cử đã giúp vùng đất này sản sinh một số lượng không cân xứng các học giả và quan chức lỗi lạc nhất Việt Nam, củng cố danh hiệu \"đất học, đất văn\" của Bắc Ninh qua bao thế kỷ."
+    }
+  ],
+  "events": [
+    {
+      "year": "1010–1225",
+      "summary": "Nhà Lý — vương triều mà người sáng lập Lý Công Uẩn xuất thân từ vùng Kinh Bắc, lớn lên ở chùa Lục Tổ — trị vì Đại Việt và dời đô về Thăng Long.",
+      "detail": "Nhà Lý — vương triều mà người sáng lập Lý Công Uẩn xuất thân từ vùng Kinh Bắc, lớn lên ở chùa Lục Tổ — trị vì Đại Việt và dời đô về Thăng Long. Trong suốt thời kỳ này, vùng Kinh Bắc trở thành trung tâm Phật giáo quan trọng bậc nhất, với hàng loạt công trình lớn được xây dựng như chùa Dâu, chùa Phật Tích và chùa Bút Tháp. Các vua Lý thường xuyên về Kinh Bắc tuần du và tổ chức các lễ Phật lớn, khắc sâu mối liên hệ tâm linh giữa vương triều và vùng đất cội nguồn này."
+    },
+    {
+      "year": "1823",
+      "summary": "Dưới triều vua Minh Mạng, vùng đất lịch sử Kinh Bắc được đặt tên mới là Bắc Ninh, đánh dấu một giai đoạn tổ chức hành chính mới trong nỗ lực hiện đại hóa bộ máy nhà nước của triều Nguyễn.",
+      "detail": "Dưới triều vua Minh Mạng, vùng đất lịch sử Kinh Bắc được đặt tên mới là Bắc Ninh, đánh dấu một giai đoạn tổ chức hành chính mới trong nỗ lực hiện đại hóa bộ máy nhà nước của triều Nguyễn. Tên gọi Bắc Ninh phản ánh vị trí địa lý — phía bắc và mang ý nghĩa thái bình — của vùng đất tiếp giáp phía đông bắc kinh đô Thăng Long. Đây cũng là thời điểm hệ thống khoa cử tiếp tục phát triển mạnh mẽ, khẳng định danh tiếng \"đất học\" của vùng."
+    },
+    {
+      "year": "1831",
+      "summary": "Vua Minh Mạng triển khai cuộc cải cách hành chính toàn diện trên cả nước, trong đó tỉnh Bắc Ninh được chính thức thành lập như một đơn vị cấp tỉnh độc lập với ranh giới và bộ máy hành chính rõ ràng.",
+      "detail": "Vua Minh Mạng triển khai cuộc cải cách hành chính toàn diện trên cả nước, trong đó tỉnh Bắc Ninh được chính thức thành lập như một đơn vị cấp tỉnh độc lập với ranh giới và bộ máy hành chính rõ ràng. Cải cách này nhằm tăng cường quyền kiểm soát trực tiếp của triều đình trung ương, thay thế các đơn vị hành chính cũ từ thời chúa Nguyễn và Lê–Trịnh. Bắc Ninh trở thành một trong những tỉnh quan trọng bậc nhất đồng bằng Bắc Bộ."
+    },
+    {
+      "year": "Tháng 3 năm 1884",
+      "summary": "Trong bối cảnh Chiến tranh Pháp–Thanh đang leo thang tại Bắc Kỳ, quân Pháp do Tướng Charles-Théodore Millot chỉ huy mở cuộc tấn công quy mô lớn vào Bắc Ninh.",
+      "detail": "Trong bối cảnh Chiến tranh Pháp–Thanh đang leo thang tại Bắc Kỳ, quân Pháp do Tướng Charles-Théodore Millot chỉ huy mở cuộc tấn công quy mô lớn vào Bắc Ninh. Liên quân nhà Thanh và quân Cờ Đen kháng cự quyết liệt nhưng không thể cầm chân được đội quân Pháp được trang bị vũ khí hiện đại; thành Bắc Ninh thất thủ ngày 12 tháng 3 năm 1884. Thất bại này đánh dấu sự kiểm soát hoàn toàn của Pháp đối với toàn bộ đồng bằng Bắc Bộ và dọn đường cho Hiệp ước Patenôtre (1884) đặt Việt Nam dưới chế độ bảo hộ của Pháp."
+    },
+    {
+      "year": "1963",
+      "summary": "Trong tiến trình hợp nhất hành chính của miền Bắc Việt Nam, tỉnh Bắc Ninh được sáp nhập với tỉnh Bắc Giang để thành lập tỉnh Hà Bắc, với tỉnh lỵ đặt tại thị xã Bắc Ninh.",
+      "detail": "Trong tiến trình hợp nhất hành chính của miền Bắc Việt Nam, tỉnh Bắc Ninh được sáp nhập với tỉnh Bắc Giang để thành lập tỉnh Hà Bắc, với tỉnh lỵ đặt tại thị xã Bắc Ninh. Quyết định này nhằm tối ưu hóa nguồn lực và quản lý trong bối cảnh miền Bắc đang chuẩn bị cho cuộc kháng chiến chống Mỹ. Trong suốt thời kỳ này, nhiều di tích văn hóa–lịch sử của vùng Kinh Bắc tiếp tục được bảo tồn và phát huy."
+    },
+    {
+      "year": "1997",
+      "summary": "Ngày 1 tháng 1 năm 1997, tỉnh Bắc Ninh được tái lập như một đơn vị hành chính độc lập sau khi tách ra từ tỉnh Hà Bắc, đánh dấu sự trở lại của một vùng đất có bản sắc lịch sử và văn hóa riêng biệt.",
+      "detail": "Ngày 1 tháng 1 năm 1997, tỉnh Bắc Ninh được tái lập như một đơn vị hành chính độc lập sau khi tách ra từ tỉnh Hà Bắc, đánh dấu sự trở lại của một vùng đất có bản sắc lịch sử và văn hóa riêng biệt. Từ đây, Bắc Ninh bước vào giai đoạn phát triển kinh tế mạnh mẽ, thu hút đầu tư nước ngoài lớn, đặc biệt trong lĩnh vực điện tử. Tỉnh dần trở thành một trong những vùng kinh tế quan trọng nhất miền Bắc."
+    },
+    {
+      "year": "2009",
+      "summary": "Dân ca Quan họ Bắc Ninh được UNESCO chính thức ghi danh vào Danh sách Di sản Văn hóa Phi vật thể đại diện của Nhân loại, ghi nhận giá trị nghệ thuật và nhân văn độc đáo của loại hình dân ca đối đáp giao duyên có lịch sử hàng trăm năm.",
+      "detail": "Dân ca Quan họ Bắc Ninh được UNESCO chính thức ghi danh vào Danh sách Di sản Văn hóa Phi vật thể đại diện của Nhân loại, ghi nhận giá trị nghệ thuật và nhân văn độc đáo của loại hình dân ca đối đáp giao duyên có lịch sử hàng trăm năm. Sự công nhận này đã thúc đẩy mạnh mẽ công tác bảo tồn và truyền dạy Quan họ cho các thế hệ trẻ, đồng thời nâng tầm hình ảnh Bắc Ninh trên bản đồ văn hóa thế giới."
+    },
+    {
+      "year": "Tháng 7 năm 2025",
+      "summary": "Sáp nhập hành chính theo Nghị quyết 202/2025/QH15, hợp nhất thành Bắc Ninh mới",
+      "detail": "Theo Nghị quyết số 202/2025/QH15 của Quốc hội thông qua ngày 12 tháng 6 năm 2025, tỉnh Bắc Giang và tỉnh Bắc Ninh hợp nhất thành đơn vị hành chính mới lấy tên là Bắc Ninh, chính thức hoạt động từ ngày 1 tháng 7 năm 2025. Đây là một phần trong cuộc cải cách hành chính lịch sử, đưa cả nước từ 63 xuống còn 34 tỉnh, thành phố trực thuộc Trung ương."
+    }
+  ]
+}

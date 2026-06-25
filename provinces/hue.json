@@ -1,0 +1,62 @@
+{
+  "name": "Huế",
+  "sections": [
+    {
+      "label": "Tổng Quan",
+      "summary": "Huế (xưa kia gọi là Phú Xuân) là kinh đô hoàng triều của Việt Nam, nằm ở tỉnh Thừa Thiên Huế trên bờ biển miền Trung.",
+      "detail": "Huế (xưa kia gọi là Phú Xuân) là kinh đô hoàng triều của Việt Nam, nằm ở tỉnh Thừa Thiên Huế trên bờ biển miền Trung. Tọa lạc bên bờ sông Hương thơ mộng dưới chân dãy Trường Sơn, Huế từng là kinh đô của triều Nguyễn—vương triều cuối cùng của Việt Nam—từ năm 1802 đến năm 1945. Thành phố nổi tiếng trên trường quốc tế với Quần thể Di tích Cố đô Huế được UNESCO công nhận, các lăng tẩm hoàng gia, ẩm thực cung đình và nét văn hóa đặc sắc riêng biệt. Năm 2025, Huế được nâng cấp thành đô thị trực thuộc Trung ương."
+    },
+    {
+      "label": "Ý Nghĩa Văn Hóa & Lịch Sử",
+      "summary": "Quần thể Di tích Cố đô Huế—bao gồm Kinh thành, Hoàng Thành, Tử Cấm Thành, các miếu thờ hoàng gia, các lăng tẩm và chùa Thiên Mụ—là kiệt tác kiến trúc cung đình Việt Nam.",
+      "detail": "Quần thể Di tích Cố đô Huế—bao gồm Kinh thành, Hoàng Thành, Tử Cấm Thành, các miếu thờ hoàng gia, các lăng tẩm (lăng Minh Mạng, lăng Tự Đức, lăng Khải Định) và chùa Thiên Mụ—là kiệt tác kiến trúc cung đình Việt Nam. UNESCO công nhận đây là Di sản Văn hóa Thế giới vào năm 1993. Huế cũng nổi tiếng với ẩm thực cung đình tinh tế (cầu kỳ và nghệ thuật nhất trong các dòng ẩm thực địa phương của Việt Nam), Nhã nhạc cung đình Huế (Di sản Văn hóa Phi vật thể của UNESCO, 2003), các lễ hội truyền thống như Festival Huế (tổ chức hai năm một lần), và kiến trúc nhà vườn đặc trưng. Sông Hương và cầu Trường Tiền là những biểu tượng lãng mạn của thành phố. Huế hiện là điểm đến du lịch di sản hàng đầu của Việt Nam."
+    }
+  ],
+  "events": [
+    {
+      "year": "1306",
+      "summary": "Châu Ô và châu Lý được nhượng lại cho Đại Việt theo hôn ước giữa vua Chăm Chế Mân và công chúa Huyền Trân—con gái vua Trần Nhân Tông—trong một giao dịch chính trị tinh tế nhất lịch sử trung đại Đông Nam Á.",
+      "detail": "Châu Ô và châu Lý được nhượng lại cho Đại Việt theo hôn ước giữa vua Chăm Chế Mân và công chúa Huyền Trân—con gái vua Trần Nhân Tông—trong một giao dịch chính trị tinh tế nhất lịch sử trung đại Đông Nam Á. Đây là bước mở rộng lãnh thổ quan trọng về phía nam của Đại Việt mà không cần giao chiến, đưa đường biên giới tiến xuống tận đèo Hải Vân. Vua Trần đổi hai châu thành Thuận Châu và Hóa Châu, cử quan lại người Việt đến cai quản và khuyến khích dân Việt vào khai khẩn đất đai. Sự kiện này đánh dấu khởi đầu quá trình \"Nam tiến\" mà người Việt sẽ tiếp tục trong nhiều thế kỷ tiếp theo cho đến tận Mũi Cà Mau."
+    },
+    {
+      "year": "1687",
+      "summary": "Chúa Nguyễn Phúc Thái chọn Phú Xuân làm thủ phủ của Đàng Trong, biến vùng đất bên bờ sông Hương thành trung tâm quyền lực và văn hóa của phần lãnh thổ phía Nam dưới quyền cai trị của dòng họ Nguyễn.",
+      "detail": "Chúa Nguyễn Phúc Thái chọn Phú Xuân làm thủ phủ của Đàng Trong, biến vùng đất bên bờ sông Hương thành trung tâm quyền lực và văn hóa của phần lãnh thổ phía Nam dưới quyền cai trị của dòng họ Nguyễn. Trước đó, các chúa Nguyễn đặt thủ phủ tại Ái Tử và Trà Bát (Quảng Trị), nhưng Phú Xuân với địa thế hiểm yếu và thuận lợi đã được chọn là nơi định đô lâu dài. Từ Phú Xuân, các chúa Nguyễn tiếp tục mở rộng lãnh thổ về phương Nam, biến Đàng Trong thành một quốc gia thực tế độc lập với cơ cấu hành chính, kinh tế và văn hóa riêng. Các công trình cung điện, chùa chiền và vườn thượng uyển được xây dựng dọc theo bờ sông Hương, đặt nền móng cho tầm vóc kinh đô của Huế sau này."
+    },
+    {
+      "year": "1802",
+      "summary": "Nguyễn Ánh—sau ba mươi năm chinh chiến và vượt qua muôn vàn gian khổ—thống nhất Việt Nam và lên ngôi hoàng đế với niên hiệu Gia Long, chọn Huế làm kinh đô của nhà nước Việt Nam thống nhất toàn vẹn lần đầu tiên trong lịch sử.",
+      "detail": "Nguyễn Ánh—sau ba mươi năm chinh chiến và vượt qua muôn vàn gian khổ—thống nhất Việt Nam và lên ngôi hoàng đế với niên hiệu Gia Long, chọn Huế làm kinh đô của nhà nước Việt Nam thống nhất toàn vẹn lần đầu tiên trong lịch sử. Đây là lần đầu tiên Việt Nam có một kinh đô nằm ở vị trí trung tâm lãnh thổ, thay vì lệch hẳn về phía Bắc như Thăng Long. Vua Gia Long đặt tên nước là Việt Nam và thiết lập nền hành chính thống nhất từ ải Nam Quan đến Mũi Cà Mau. Sự lựa chọn Huế làm kinh đô phản ánh sự cân bằng chính trị giữa các thế lực miền Bắc và miền Nam, đồng thời khẳng định vị thế của dòng họ Nguyễn trong lịch sử dân tộc."
+    },
+    {
+      "year": "1804–1832",
+      "summary": "Kinh thành Huế được xây dựng theo thiết kế kết hợp giữa kiến trúc truyền thống Á Đông và nguyên lý phòng thủ kiểu Vauban của châu Âu, tạo ra một công trình quân sự và kiến trúc độc đáo không có nơi nào tương tự ở Đông Nam Á.",
+      "detail": "Kinh thành Huế được xây dựng theo thiết kế kết hợp giữa kiến trúc truyền thống Á Đông và nguyên lý phòng thủ kiểu Vauban của châu Âu, tạo ra một công trình quân sự và kiến trúc độc đáo không có nơi nào tương tự ở Đông Nam Á. Hàng chục nghìn dân phu được huy động trong suốt nhiều năm để đào hào, đắp tường, xây cung điện và chạm khắc từng chi tiết trang trí tinh xảo. Hoàng Thành và Tử Cấm Thành nằm trong lòng Kinh thành là nơi sinh hoạt của hoàng gia, với hàng trăm công trình bao gồm điện thờ, thư viện, vườn thượng uyển và khu dành riêng cho phi tần. Sau khi hoàn thành dưới triều Minh Mạng năm 1832, Kinh thành Huế là một trong những quần thể kiến trúc hoàng gia hoàn chỉnh và vĩ đại nhất châu Á thế kỷ 19."
+    },
+    {
+      "year": "1885",
+      "summary": "Đêm mồng 4 rạng mồng 5 tháng 7 năm 1885, Tôn Thất Thuyết và phái chủ chiến trong triều đình cho quân tấn công trước vào quân Pháp đang đóng tại Mang Cá, nhưng thất bại và Pháp phản công chiếm Kinh thành Huế trong vài giờ.",
+      "detail": "Đêm mồng 4 rạng mồng 5 tháng 7 năm 1885, Tôn Thất Thuyết và phái chủ chiến trong triều đình cho quân tấn công trước vào quân Pháp đang đóng tại Mang Cá, nhưng thất bại và Pháp phản công chiếm Kinh thành Huế trong vài giờ. Sau sự kiện này, vua Hàm Nghi bỏ kinh đô chạy ra Quảng Trị và ra chiếu Cần Vương kêu gọi toàn dân kháng Pháp. Việt Nam chính thức mất chủ quyền hoàn toàn khi Pháp đặt ách bảo hộ lên toàn lãnh thổ, với Kinh thành Huế bị cướp phá và nhiều kho tàng hoàng gia bị mang đi. Phong trào Cần Vương bùng phát khắp Trung và Bắc Kỳ trong gần một thập kỷ sau đó, khẳng định tinh thần chống ngoại xâm bất khuất của dân tộc."
+    },
+    {
+      "year": "Ngày 25 tháng 8 năm 1945",
+      "summary": "Vua Bảo Đại—vị vua cuối cùng của nhà Nguyễn và của chế độ phong kiến Việt Nam—tuyên bố thoái vị trước đại diện Chính phủ Lâm thời tại cửa Ngọ Môn, trao ấn kiếm truyền quốc cho phái đoàn Việt Minh và trở thành công dân Vĩnh Thụy.",
+      "detail": "Vua Bảo Đại—vị vua cuối cùng của nhà Nguyễn và của chế độ phong kiến Việt Nam—tuyên bố thoái vị trước đại diện Chính phủ Lâm thời tại cửa Ngọ Môn, trao ấn kiếm truyền quốc cho phái đoàn Việt Minh và trở thành công dân Vĩnh Thụy. Câu nói nổi tiếng của ông \"Thà làm dân một nước độc lập còn hơn làm vua một nước nô lệ\" đã đi vào lịch sử như biểu tượng của sự chuyển giao quyền lực trong hòa bình. Sự kiện này khép lại 143 năm trị vì của nhà Nguyễn và hơn một nghìn năm chế độ phong kiến Việt Nam, mở ra kỷ nguyên cộng hòa và độc lập dân tộc. Ấn vàng và kiếm bạc—vật thiêng biểu trưng cho quyền lực hoàng gia—được trao cho đại diện Việt Minh, tượng trưng cho sự chuyển giao hợp pháp quyền lực về tay nhân dân."
+    },
+    {
+      "year": "Tháng 1–2 năm 1968",
+      "summary": "Trong cuộc Tổng tiến công và nổi dậy Tết Mậu Thân, Mặt trận Giải phóng miền Nam và quân đội miền Bắc đã kiểm soát phần lớn thành phố Huế trong 25 ngày—dài nhất so với bất kỳ đô thị nào bị tấn công trong dịp Tết.",
+      "detail": "Trong cuộc Tổng tiến công và nổi dậy Tết Mậu Thân, Mặt trận Giải phóng miền Nam và quân đội miền Bắc đã kiểm soát phần lớn thành phố Huế trong 25 ngày—dài nhất so với bất kỳ đô thị nào bị tấn công trong dịp Tết. Quân Mỹ và Việt Nam Cộng hòa phải chiến đấu từng ngôi nhà, từng con phố để giành lại thành phố, trong khi nhiều phần của Kinh thành và khu dân cư bị phá hủy nặng nề bởi chiến sự ác liệt. Các cuộc thảm sát ở cả hai phía đã cướp đi sinh mạng của hàng nghìn thường dân, trong đó vụ thảm sát Huế do lực lượng cách mạng thực hiện khiến khoảng 2.800 người mất tích hoặc bị giết là một trong những tội ác chiến tranh bị lên án nặng nề nhất. Trận Huế trở thành biểu tượng của sự tàn khốc của Chiến tranh Việt Nam và có tác động tâm lý sâu sắc đến dư luận quốc tế, góp phần đẩy nhanh quá trình Mỹ rút lui khỏi cuộc chiến."
+    },
+    {
+      "year": "1993",
+      "summary": "Quần thể Di tích Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới đầu tiên của Việt Nam, đánh dấu sự hội nhập của di sản văn hóa Việt Nam với cộng đồng quốc tế.",
+      "detail": "Quần thể Di tích Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới đầu tiên của Việt Nam, đánh dấu sự hội nhập của di sản văn hóa Việt Nam với cộng đồng quốc tế. Quyết định công nhận này dựa trên giá trị nổi bật toàn cầu của quần thể kiến trúc hoàng gia bao gồm Kinh thành, Hoàng Thành, các lăng tẩm vua Nguyễn và nhiều công trình tôn giáo liên quan. Việc được UNESCO công nhận đã thúc đẩy mạnh mẽ các dự án trùng tu và bảo tồn di tích, đồng thời đưa Huế trở thành điểm đến du lịch di sản hàng đầu của cả nước. Kể từ đó, Huế tiếp tục được UNESCO ghi danh thêm ở hạng mục Di sản Văn hóa Phi vật thể với Nhã nhạc cung đình Huế vào năm 2003."
+    },
+    {
+      "year": "2025",
+      "summary": "Huế được nâng cấp thành đô thị trực thuộc Trung ương, trở thành thành phố thứ sáu của Việt Nam có vị thế hành chính cao nhất bên cạnh Hà Nội, Thành phố Hồ Chí Minh, Đà Nẵng, Hải Phòng và Cần Thơ.",
+      "detail": "Huế được nâng cấp thành đô thị trực thuộc Trung ương, trở thành thành phố thứ sáu của Việt Nam có vị thế hành chính cao nhất bên cạnh Hà Nội, Thành phố Hồ Chí Minh, Đà Nẵng, Hải Phòng và Cần Thơ. Quyết định này phản ánh sự công nhận về tầm quan trọng của Huế không chỉ về mặt di sản văn hóa mà còn về vai trò kinh tế, giáo dục và y tế trong khu vực miền Trung. Sự nâng cấp đi kèm với kế hoạch phát triển cơ sở hạ tầng và kinh tế mới, nhằm biến Huế thành một trung tâm đô thị hiện đại mà vẫn bảo tồn được bản sắc di sản độc đáo. Đây là mốc quan trọng mở ra cơ hội mới cho sự phát triển toàn diện và bền vững của vùng đất cố đô."
+    }
+  ]
+}

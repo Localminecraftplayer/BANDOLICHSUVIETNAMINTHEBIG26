@@ -1,0 +1,52 @@
+{
+  "name": "Đồng Nai",
+  "sections": [
+    {
+      "label": "Tổng Quan",
+      "summary": "Đồng Nai là tỉnh thuộc vùng Đông Nam Bộ của Việt Nam, nằm ở phía đông bắc Thành phố Hồ Chí Minh.",
+      "detail": "Đồng Nai là tỉnh thuộc vùng Đông Nam Bộ của Việt Nam, nằm ở phía đông bắc Thành phố Hồ Chí Minh. Đây là một trong những tỉnh có nền công nghiệp phát triển nhất cả nước và là nơi có thành phố Biên Hòa — một trong những đô thị lâu đời nhất được định cư liên tục của Việt Nam. Vùng đất Đồng Nai có bằng chứng cư trú của con người từ 700.000 đến 500.000 năm trước và giữ vị trí then chốt trong lịch sử Nam tiến của người Việt."
+    },
+    {
+      "label": "Ý Nghĩa Văn Hóa & Lịch Sử",
+      "summary": "Dân cư Đồng Nai phản ánh lịch sử định cư nhiều lớp của tỉnh: người Kinh (Việt Nam) chiếm đa số, bên cạnh đó còn có cộng đồng người Hoa, Stiêng, Mạ, Nùng, Tày và Chăm.",
+      "detail": "Dân cư Đồng Nai phản ánh lịch sử định cư nhiều lớp của tỉnh: người Kinh (Việt Nam) chiếm đa số, bên cạnh đó còn có cộng đồng người Hoa, Stiêng, Mạ, Nùng, Tày và Chăm. Mỗi cộng đồng đóng góp những truyền thống văn hóa, ẩm thực và nghề thủ công đặc sắc riêng vào đời sống của tỉnh. Vườn Quốc gia Cát Tiên, nằm ở phía bắc tỉnh Đồng Nai và được UNESCO công nhận là Khu Dự trữ Sinh quyển Thế giới, là một trong những hệ sinh thái đa dạng sinh học nhất Việt Nam, bảo vệ các cánh rừng nhiệt đới, động vật hoang dã quý hiếm (trong đó có loài tê giác Java đã bị tuyệt chủng tại địa phương) và các hệ thống sông quan trọng. Di sản khảo cổ phong phú của tỉnh bao gồm các di chỉ tiền sử và những hiện vật của văn hóa Óc Eo. Biên Hòa nổi tiếng với nghề gốm thủ công truyền thống có lịch sử từ thế kỷ XVIII, tạo ra dòng gốm Đồng Nai đặc trưng — một nghề thủ công truyền thống quan trọng còn được duy trì đến ngày nay. Sự phát triển công nghiệp mạnh mẽ của tỉnh từ sau ngày thống nhất phản ánh quá trình biến đổi của Đồng Nai thành một trong những vùng kinh tế trọng điểm hàng đầu của Việt Nam."
+    }
+  ],
+  "events": [
+    {
+      "year": "700.000–500.000 năm trước CN",
+      "summary": "Vùng đất Đồng Nai là một trong những địa điểm có bằng chứng cư trú của người tiền sử lâu đời nhất Việt Nam, với các công cụ đá thô sơ được phát hiện tại nhiều địa điểm khảo cổ dọc theo sông Đồng Nai.",
+      "detail": "Vùng đất Đồng Nai là một trong những địa điểm có bằng chứng cư trú của người tiền sử lâu đời nhất Việt Nam, với các công cụ đá thô sơ được phát hiện tại nhiều địa điểm khảo cổ dọc theo sông Đồng Nai. Các phát hiện này cho thấy vùng đất màu mỡ bên bờ sông lớn đã thu hút người nguyên thủy từ rất sớm trong lịch sử loài người tại Đông Nam Á. Di chỉ văn hóa Đồng Nai (thời đại đồ đồng, khoảng 3000–2000 năm trước CN) phản ánh sự phát triển liên tục của các nền văn hóa tiền sử trong vùng."
+    },
+    {
+      "year": "Thế kỷ XVII",
+      "summary": "Trong công cuộc Nam tiến của các chúa Nguyễn, người Việt và người Hoa (đặc biệt là nhóm người Minh Hương do Trần Thắng Tài và Dương Ngạn Địch dẫn đầu vào năm 1679) bắt đầu khai phá vùng đất Đồng Nai.",
+      "detail": "Trong công cuộc Nam tiến của các chúa Nguyễn, người Việt và người Hoa (đặc biệt là nhóm người Minh Hương do Trần Thắng Tài và Dương Ngạn Địch dẫn đầu vào năm 1679) bắt đầu khai phá vùng đất Đồng Nai. Nhóm người Hoa này được chúa Nguyễn Phúc Tần cho phép định cư tại Biên Hòa (Trấn Biên) và Mỹ Tho, đóng góp quan trọng vào việc mở rộng và phát triển kinh tế vùng. Chúa Nguyễn áp dụng chính sách khôn khéo — vừa thu hút di dân vừa thiết lập các đơn vị hành chính để quản lý vùng đất mới."
+    },
+    {
+      "year": "1836",
+      "summary": "Vua Minh Mạng thực hiện cuộc cải cách hành chính toàn quốc, trong đó đổi tên trấn Biên Hòa thành tỉnh Biên Hòa — đơn vị hành chính tiền thân trực tiếp của tỉnh Đồng Nai ngày nay.",
+      "detail": "Vua Minh Mạng thực hiện cuộc cải cách hành chính toàn quốc, trong đó đổi tên trấn Biên Hòa thành tỉnh Biên Hòa — đơn vị hành chính tiền thân trực tiếp của tỉnh Đồng Nai ngày nay. Biên Hòa lúc này đã là một đô thị thương mại phát triển, với nghề gốm, buôn bán gỗ và nông nghiệp là những ngành kinh tế chính. Dân số tỉnh ngày càng đông với sự tham gia của người Kinh, người Hoa và một số tộc người bản địa như Stiêng, Mạ."
+    },
+    {
+      "year": "Ngày 18 tháng 12 năm 1861",
+      "summary": "Liên quân Pháp–Tây Ban Nha do Đô đốc Charner chỉ huy tấn công và chiếm thành Biên Hòa sau trận đánh ngắn ngủi, khai thông tuyến đường tiến lên Tây Nguyên và về phía đông Sài Gòn.",
+      "detail": "Liên quân Pháp–Tây Ban Nha do Đô đốc Charner chỉ huy tấn công và chiếm thành Biên Hòa sau trận đánh ngắn ngủi, khai thông tuyến đường tiến lên Tây Nguyên và về phía đông Sài Gòn. Sự thất thủ của Biên Hòa cùng với việc mất hai tỉnh Định Tường và Gia Định trước đó đã dẫn đến Hòa ước Nhâm Tuất (5 tháng 6 năm 1862), buộc triều Nguyễn nhượng ba tỉnh miền Đông Nam Kỳ cho Pháp. Đây là bước khởi đầu cho quá trình thực dân hóa toàn bộ Nam Kỳ của Pháp."
+    },
+    {
+      "year": "1954–1955",
+      "summary": "Sau khi Hiệp định Genève phân chia Việt Nam tại vĩ tuyến 17, Chiến dịch Di cư Tự do (Operation Passage to Freedom) đã đưa hàng trăm nghìn người, phần lớn là người Công giáo miền Bắc, vào sinh sống tại miền Nam.",
+      "detail": "Sau khi Hiệp định Genève phân chia Việt Nam tại vĩ tuyến 17, Chiến dịch Di cư Tự do (Operation Passage to Freedom) đã đưa hàng trăm nghìn người, phần lớn là người Công giáo miền Bắc, vào sinh sống tại miền Nam. Tỉnh Biên Hòa và vùng Đồng Nai là một trong những điểm tiếp nhận quan trọng, với hàng chục khu định cư mới được thành lập. Làn sóng di dân này làm thay đổi đáng kể cơ cấu dân cư, tôn giáo và kinh tế của vùng, góp phần hình thành nhiều cộng đồng và làng xã tồn tại đến ngày nay."
+    },
+    {
+      "year": "1975",
+      "summary": "Sau ngày 30 tháng 4 năm 1975, theo chính sách hợp nhất hành chính của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, các tỉnh Biên Hòa, Long Khánh và Phước Tuy được sáp nhập thành tỉnh Đồng Nai rộng lớn, lấy tên từ con sông lịch sử chảy qua vùng.",
+      "detail": "Sau ngày 30 tháng 4 năm 1975, theo chính sách hợp nhất hành chính của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, các tỉnh Biên Hòa, Long Khánh và Phước Tuy được sáp nhập thành tỉnh Đồng Nai rộng lớn, lấy tên từ con sông lịch sử chảy qua vùng. Biên Hòa trở thành tỉnh lỵ và tiếp tục phát triển thành khu công nghiệp lớn nhờ hạ tầng và vị trí địa lý thuận lợi. Từ những năm 1990, tỉnh thu hút mạnh đầu tư nước ngoài, trở thành một trong những trung tâm công nghiệp quan trọng nhất cả nước."
+    },
+    {
+      "year": "Tháng 7 năm 2025",
+      "summary": "Sáp nhập hành chính theo Nghị quyết 202/2025/QH15, hợp nhất thành Đồng Nai mới",
+      "detail": "Theo Nghị quyết số 202/2025/QH15 của Quốc hội thông qua ngày 12 tháng 6 năm 2025, tỉnh Bình Phước và tỉnh Đồng Nai hợp nhất thành đơn vị hành chính mới lấy tên là Đồng Nai, chính thức hoạt động từ ngày 1 tháng 7 năm 2025. Đây là một phần trong cuộc cải cách hành chính lịch sử, đưa cả nước từ 63 xuống còn 34 tỉnh, thành phố trực thuộc Trung ương."
+    }
+  ]
+}
